@@ -678,6 +678,7 @@ span.freeshipping {
 .products-section {
     background-color: #fff;
     padding: 60px 0;
+	padding-bottom:0;
 }
 .products-section h2 {
     text-align: center;
@@ -703,6 +704,7 @@ span.freeshipping {
 }
 .home-page-content .category-footer {
     padding: 20px 0 20px 0;
+	margin-bottom:0;
 }
 .home-page-content .category-footer h3 {
     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -1069,4 +1071,8 @@ iframe {
 	.cart-box.fixed-cart-box .cart-box-sticky {
 		max-width: 301px;
 	}
+}
+
+#home{
+	padding-bottom:0;
 }
