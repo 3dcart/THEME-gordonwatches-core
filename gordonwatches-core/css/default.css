@@ -16,14 +16,7 @@ body {
     color: inherit;
 }
 .gold-bg {
-    background: #e6d28b;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdb572+0,f0e4ad+41,d1b97a+75,ceb472+100 */
-    background: #cdb572; /* Old browsers */
-    background: -moz-linear-gradient(top, #cdb572 0%, #f0e4ad 41%, #d1b97a 75%, #ceb472 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #cdb572 0%,#f0e4ad 41%,#d1b97a 75%,#ceb472 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #cdb572 0%,#f0e4ad 41%,#d1b97a 75%,#ceb472 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdb572', endColorstr='#ceb472',GradientType=0 ); /* IE6-9 */
-
+    background: #F0DA98;
 }
 
 
@@ -140,9 +133,9 @@ h1 {
     opacity: 0.8;
 }
 .navbar-wrapper {
-    background: url(images/nav.png) repeat-x top center;
-    background-size:contain;
-    padding:10px;
+    background: #F0DA98;
+    background-size: contain;
+    padding: 10px;
 }
 .navbar.navbar-inverse {
     margin: 0;
@@ -421,7 +414,7 @@ span.cart-count {
 	font-weight: 500;
 }
 .site-footer {
-    background-color: none;
+    background-color: transparent;
     color: #fff;
     font-family: 'Raleway', sans-serif;
 }
