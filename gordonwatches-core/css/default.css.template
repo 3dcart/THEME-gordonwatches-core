@@ -1,7 +1,7 @@
 /*
 ** Bootstrap over-rides
 */
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 body {
 	display: flex;
 	height: 100%;
@@ -50,7 +50,7 @@ body {
     font-size: [base_font_size]px;
 }
 .primary-bg {
-    background: #000;color: #a3a3a3;
+    background: #000;color: #000;
 }
 .secondary-bg {
     background: #dcdcdc;
@@ -64,7 +64,9 @@ body {
 h1 {
     font-size: [heading_base_size]px;
 }
-
+.antiCls { 
+    visibility: hidden; 
+}
 .titles {
     margin: 0 0 20px;
     font-size: 18px;
@@ -502,7 +504,7 @@ ul.extrapages li a {
     padding:8px 0;
 }
 .copyright a{
-    color: #f0da98;
+    color: #fff;
 }
 .mailist-box {
     max-width: 550px;
