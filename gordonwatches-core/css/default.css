@@ -1,7 +1,7 @@
 /*
 ** Bootstrap over-rides
 */
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 body {
 	display: flex;
 	height: 100%;
@@ -48,7 +48,7 @@ body {
 	line-height: 1.5;
 }
 .primary-bg {
-    background: #000 url(images/crosshatching.png) repeat top center;color: #a3a3a3;
+    background: #000 url(images/crosshatching.png) repeat top center;color: #000;
 }
 .secondary-bg {
     background: #dcdcdc;
@@ -58,7 +58,9 @@ body {
     background: #F0DA98;
 }
 
-
+.antiCls { 
+    visibility: hidden; 
+}
 h1 {
 	font-size: 30px;
 }
@@ -495,7 +497,7 @@ ul.extrapages li a {
     padding:8px 0;
 }
 .copyright a{
-    color: #f0da98;
+    color: #fff;
 }
 .mailist-box {
     max-width: 550px;
